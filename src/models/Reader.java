@@ -32,7 +32,6 @@ public class Reader {
       FileBean bean;
       while (reader.ready()) {
         line = reader.readLine();
-//        System.out.println(line);
         if (line.matches("\\d.*")) {
           bean = new FileBean();
           nome = line.substring(19, 31).trim();
