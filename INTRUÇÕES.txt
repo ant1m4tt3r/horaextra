@@ -1,0 +1,28 @@
+/-------------------------------------INSTRUÇÕES---------------------------------------/
+
+
+INSTALAÇÃO ----------------------------------------------------------------------------
+
+Após descompactar a pasta "calculadora", copie e cole-a no seu diretório de preferência.
+Se desejar, crie um atalho do arquivo "calculadora.jar" na sua área de trabalho.
+Para iniciar o sistema, dê um duplo clique no atalho criado ou no próprio arquivo "calculadora.jar".
+
+
+COMO UTILIZAR -------------------------------------------------------------------------
+
+Ao inicializar, o campo "Arquivo" corresponde à entrada de dados, proveniente do arquivo ".txt" gerado
+com as horas extras e informações dos funcionários.
+
+O campo Saída corresponde ao arquivo de saída gerado pela software, em formato ".xlsx". 
+Este caminho de saída é automaticamente sugerido, porém, pode ser alterado de acordo com a vontade do usuário.
+
+Após os caminhos serem selecionados/escolhidos pelo usuário, o botão "Iniciar" irá gerar a pasta do excel
+contendo os dados já formatados e organizados.
+
+
+
+/*
+
+Certifique-se de ter a máquina virtual Java instalada em seu computador.
+
+*/

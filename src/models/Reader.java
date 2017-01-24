@@ -6,6 +6,8 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.swing.JOptionPane;
+
 public class Reader {
 
   File fileIn;
@@ -48,6 +50,7 @@ public class Reader {
       reader.close();
     }
     catch (Exception e) {
+    	JOptionPane.showMessageDialog(null, "Arquivo inválido. Por favor, utilize um arquivo com o formato suportado ou contate o administrador do sistema.");
       e.printStackTrace();
     }
     return listBean;
