@@ -18,7 +18,7 @@ public class Reader {
 
 	public Reader(String fileIn) {
 		if (fileIn == null || fileIn.isEmpty())
-			throw new NullPointerException("Arquivo de entrada n„o pode ser nulo ou vazio");
+			throw new NullPointerException("Arquivo de entrada n√£o pode ser nulo ou vazio");
 		this.fileIn = new File(fileIn);
 	}
 
@@ -49,7 +49,7 @@ public class Reader {
 			reader.close();
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null,
-					"Arquivo inv·lido. Por favor, utilize um arquivo com o formato suportado ou contate o administrador do sistema.");
+					"Arquivo inv√°lido. Por favor, utilize um arquivo com o formato suportado ou contate o administrador do sistema.");
 			e.printStackTrace();
 		}
 		return listBean;
